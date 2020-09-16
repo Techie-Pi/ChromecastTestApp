@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Chromecast</title>
+        <!--- Libraries -->
+        <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fenny/castjs@3.0.1/cast.min.js"></script>
+        <!-- Code -->
+        <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+        <form>
+                <label for="urlToCast">Url to cast</label>
+                <input type="url" id="urlToCast" value="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4">
+
+                <button type="button" id="castMe">Click To Cast</button>
+
+                <button type="button" id="15sMore">15Secs more</button>
+                <button type="button" id="15sLess">15Secs less</button>
+
+                <button type="button" id="volumeUp">Volume Up</button>
+                <button type="button" id="volumeDown">Volume Down</button>
+        </form>
+
+</body>
+</html>
